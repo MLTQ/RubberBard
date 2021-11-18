@@ -16,7 +16,8 @@ print('Python VERSION:', sys.version)
 print('pyTorch VERSION:', torch.__version__)
 print(' Is CUDA available? ')
 print(torch.cuda.is_available())
-print('CUDA VERSION: 10.1 V10.1.105')
+#TODO: Make this actually report version
+#print('CUDA VERSION: 10.1 V10.1.105')
 from subprocess import call
 # Run this command in the python console, I would eval() it, but I won't.
 #! nvcc --version

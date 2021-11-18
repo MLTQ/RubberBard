@@ -4,3 +4,5 @@ songs/
 pt_files/
 
 .idea/
+
+venv/
